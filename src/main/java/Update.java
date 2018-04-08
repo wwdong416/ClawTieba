@@ -100,10 +100,7 @@ public class Update {
                             //  if (ispic != null){
 
                             Elements elementurls = document.getElementsByClass("grbm_ele_title");
-                            if (elementurls.isEmpty()) {
-                                System.out.println("-------------------------------------------");
-                                mainUrl = null;
-                            } else {
+                     
                                 System.out.println("//////////////////////////////////////");
 
                                 Elements elementurl = elementurls.select("a");
@@ -170,8 +167,8 @@ public class Update {
                                     }
                                 }
                                 //Element结束
-                                // mainUrl = isFinsh(document, "div#frs_list_pager", "a.last.pagination-item");//贴吧相册内容页数
-                            }
+                                 mainUrl = isFinsh(document, "div#frs_list_pager", "a.last.pagination-item");//贴吧相册内容页数
+                            
                         }
                     }
                     url = isFinsh(mainDoc, "div[class=pagination]", "a[class=next]");
