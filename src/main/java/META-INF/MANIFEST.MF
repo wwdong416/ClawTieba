@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Class-Path: httpmime-4.3.2.jar jackson-annotations-2.3.0.jar httpclien
+ t-cache-4.5.jar commons-codec-1.9.jar commons-collections-3.2.1.jar j
+ son-lib-2.4-jdk15.jar httpcore-4.4.4.jar jackson-databind-2.3.3.jar j
+ soup-1.11.2.jar json-simple-1.1.jar commons-beanutils-1.8.0.jar commo
+ ns-lang-2.5.jar commons-logging-1.2.jar jackson-core-2.3.1.jar httpcl
+ ient-4.5.2.jar ezmorph-1.0.6.jar
+Main-Class: JsoupFun
+
