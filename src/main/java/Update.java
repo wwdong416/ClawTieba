@@ -167,7 +167,7 @@ public class Update {
                                     }
                                 }
                                 //Element结束
-                                 mainUrl = isFinsh(document, "div#frs_list_pager", "a.last.pagination-item");//贴吧相册内容页数
+                                 mainUrl = isFinsh(document, "div#frs_list_pager", "a.next pagination-item");//贴吧相册内容页数
                             
                         }
                     }
